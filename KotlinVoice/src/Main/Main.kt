@@ -14,6 +14,6 @@ fun main(){
     var hasil:String = z.joinToString("")
 
     hasil=hasil.replace("\\s".toRegex(),"")
-    val newstr = hasil.chunked(2).joinToString("-")
+    val newstr = hasil.chunked(1).joinToString("-")
     println(newstr)
 }
